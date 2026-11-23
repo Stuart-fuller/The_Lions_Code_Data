@@ -6,7 +6,7 @@ from sklearn.neighbors import KNeighborsClassifier;
 
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score;
 
-df = pd.read_csv("fingers_crossed.csv");
+df = pd.read_csv("data/fingers_crossed.csv");
 
 X = df.drop(columns=["final_result", "region"]);
 y = df["final_result"].replace(2, 1);
