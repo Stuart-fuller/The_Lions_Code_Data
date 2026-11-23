@@ -1,2 +1,4 @@
-# Project X - Course Y
-Write an overview of this repo and your project here.
+# The_Lions - CSC1171
+
+Research question:
+"What student factors are useful indicators of a student's final result?"
